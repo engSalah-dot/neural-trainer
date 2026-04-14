@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 from sklearn.datasets import fetch_california_housing  # ← مباشرة
-from tensorflow import keras
+import keras
 import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="Model Trainer", page_icon="🧠", layout="wide")
