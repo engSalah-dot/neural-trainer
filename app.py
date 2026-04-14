@@ -1,8 +1,11 @@
+import os
+os.environ["KERAS_BACKEND"] = "torch"
+import keras
+
 import streamlit as st
 import numpy as np
 import pandas as pd
 from sklearn.datasets import fetch_california_housing  # ← مباشرة
-import keras
 import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="Model Trainer", page_icon="🧠", layout="wide")
